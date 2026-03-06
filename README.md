@@ -3,11 +3,11 @@
 
 📌 Project Overview
 
-     The Credit Card Management System is a console-based Java application developed using Spring Framework, Hibernate ORM, and MySQL. The project simulates how a banking system manages credit card services such as customer registration, issuing credit cards, performing transactions, and generating bills.
-     
-     The main goal of this project is to demonstrate backend development concepts like Object Relational Mapping (ORM), transaction management, and database operations using Spring and Hibernate.
-     
-     The system allows users to register customers, apply for credit cards, perform transactions using the credit card, generate bills, and view customer details. All the information is stored and managed in a MySQL database.
+ The Credit Card Management System is a console-based Java application developed using Spring Framework, Hibernate ORM, and MySQL. The project simulates how a banking system manages credit card services such as customer registration, issuing credit cards, performing transactions, and generating bills.
+               
+The main goal of this project is to demonstrate backend development concepts like Object Relational Mapping (ORM), transaction management, and database operations using Spring and Hibernate.
+               
+The system allows users to register customers, apply for credit cards, perform transactions using the credit card, generate bills, and view customer details. All the information is stored and managed in a MySQL database.
 
 
      🛠 Technologies Used
@@ -24,7 +24,9 @@
 
 🧱 System Architecture
 
-     The project follows a layered architecture, which separates the application into different layers for better organization and maintainability.
+     The project follows a layered architecture, 
+     which separates the application into different
+     layers for better organization and maintainability.
      
      User (Console)
           │
@@ -45,7 +47,8 @@
           ▼
      MySQL Database
      
-     Each layer has a specific responsibility, which makes the system easier to understand and maintain.
+     Each layer has a specific responsibility,
+     which makes the system easier to understand and maintain.
 
 
 
@@ -54,7 +57,8 @@
 
 📂 Project File Architecture
 
-     The project is organized into packages that separate different functionalities of the application.
+     The project is organized into packages that 
+     separate different functionalities of the application.
      
      Credit_Card_Management_System
      │
@@ -121,7 +125,8 @@
      
      com.orm.entity
      
-     This layer contains entity classes, which represent database tables. Hibernate automatically maps these classes to MySQL tables.
+     This layer contains entity classes, which represent database tables.
+     Hibernate automatically maps these classes to MySQL tables.
      
      Customer.java
      
@@ -199,7 +204,8 @@
      
      DAO stands for Data Access Object.
      
-     This layer handles all database operations using Hibernate. Each entity has a corresponding DAO class.
+     This layer handles all database operations using Hibernate.
+     Each entity has a corresponding DAO class.
      
      
 - CustomerDao.java
